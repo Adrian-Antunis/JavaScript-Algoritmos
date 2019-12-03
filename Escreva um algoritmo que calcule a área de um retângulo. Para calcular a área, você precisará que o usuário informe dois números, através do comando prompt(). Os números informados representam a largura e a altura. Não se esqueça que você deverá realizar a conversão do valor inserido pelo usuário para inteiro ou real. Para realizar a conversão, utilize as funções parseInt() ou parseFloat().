@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercício 03 - Calcular área de um retângulo</title>
+</head>
+<body>
+
+    <script>
+
+        var base, altura, area; // declaração das variáveis
+
+        base = prompt("Informe o valor da base do retângulo."); // obtem o valor da base, inserida pelo usuário
+        base = parseFloat(base); // conver o valor inserido (String) para float
+
+        altura = prompt("Informe o valor da altura do retângulo."); // obtem o valor da altura, inserida pelo usuário
+        altura = parseFloat(altura); // conver o valor inserido (String) para float
+
+        area = base * altura; // calcula a área do retângulo
+
+        console.log("A área do retângulo é: " + area);
+        alert("A área do retângulo é: " + area);
+    
+    </script>
+    
+</body>
+</html>
