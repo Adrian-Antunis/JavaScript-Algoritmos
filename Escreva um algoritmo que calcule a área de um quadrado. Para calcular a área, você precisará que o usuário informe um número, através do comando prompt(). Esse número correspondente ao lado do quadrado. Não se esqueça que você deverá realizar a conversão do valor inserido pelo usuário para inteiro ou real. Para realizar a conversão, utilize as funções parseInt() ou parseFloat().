@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercicio 02 - Calcular área de um quadrado</title>
+</head>
+<body>
+    
+    <script>
+        var lado;
+        lado = prompt("Informe o lado do quadrado.");
+        lado = parseFloat(lado); // converte o valor para real (float)
+        // var lado = parseFloat(prompt("Informe o lado do quadrado."));
+
+        var area;
+        area = lado * lado; // cálculo da área
+        console.log("A área do quadrado é: " + area); // monstar o resultado
+        alert("A área do quadrado é: " + area); // monstar o resultado
+    </script>
+
+
+
+</body>
+</html>
