@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercicio 01 - Somar dois números</title>
+</head>
+<body>
+    <script>
+        var n1, n2, soma;
+        n1 = prompt("Informe o 1º número.");
+        n1 = parseInt(n1, 10);
+        n2 = prompt("Informe o 2º número.");
+        n2 = parseInt(n2, 10);
+        soma = n1 + n2;
+        console.log("A soma é: " + soma);
+        alert("A soma é: " + soma);
+    </script>
+</body>
+</html>
