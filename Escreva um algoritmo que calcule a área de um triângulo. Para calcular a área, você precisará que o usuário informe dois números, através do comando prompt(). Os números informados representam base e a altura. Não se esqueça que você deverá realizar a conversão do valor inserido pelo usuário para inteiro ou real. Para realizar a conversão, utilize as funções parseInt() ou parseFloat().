@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercício 04 - Calcular área de um triângulo</title>
+</head>
+<body>
+
+    <script>
+
+        var base, altura, area; // declaração das variáveis
+
+        base = prompt("Informe o valor da base do triângulo."); // obtem o valor da base, inserida pelo usuário
+        base = parseFloat(base); // conver o valor inserido (String) para float
+
+        altura = prompt("Informe o valor da altura do triângulo."); // obtem o valor da altura, inserida pelo usuário
+        altura = parseFloat(altura); // conver o valor inserido (String) para float
+
+        area = (base * altura) / 2; // calcula a área do triângulo
+
+        console.log("A área do triângulo é: " + area);
+        alert("A área do triângulo é: " + area);
+    
+    </script>
+    
+</body>
+</html>
